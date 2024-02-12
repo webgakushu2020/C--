@@ -7,9 +7,9 @@
 
 ```dart
   void main() {
-    print("生麦生米生卵");
-    print("生麦生米生卵");
-    print("生麦生米生卵");
+    Console.WriteLine("生麦生米生卵");
+    Console.WriteLine("生麦生米生卵");
+    Console.WriteLine("生麦生米生卵");
   }
 ```
 

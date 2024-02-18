@@ -3,20 +3,18 @@
 
 ## **for文の書き方**
 
-```dart
+```c#
   for (①初期化; ②繰り返し条件; ③後処理) {
     繰り返す処理
   } 
 ```
 
-```dart
-void main() {
+```c#
 
   for (var i = 0; i < 3; i++) {
-    print("生麦生米生卵");
+    Console.WriteLine("生麦生米生卵");
   }
 
-}
 ```
 
   変数 **i** の値が **0 から 3 より小さい間**  　{}内の処理を繰り返す
@@ -65,14 +63,12 @@ i++
 
 ### **① 10から1まで表示する**
 
-```dart
-void main() {
+```c#
 
   for (var count = 10; count > 0; count--) {
-    print(count);
+    Console.WriteLine(count);
   }
   
-}
 ```
 
 ```
@@ -98,14 +94,12 @@ void main() {
 
 ### **② 0から10までの`偶数`を表示する**
 
-```dart
-void main() {
+```c#
 
   for (var j = 0; j <= 10; j = j + 2) {
-    print(j);
+    Console.WriteLine(j);
   }
 
-}
 ```
 
 ```
@@ -126,16 +120,15 @@ void main() {
 ### **③ for文の中でif文を使う**
 **0から10までの`偶数`を表示する**
 
-```dart
-void main() {
+```c#
 
   for (var i = 0; i <= 10; i++) {
     if (i % 2 == 0) { //２で割った余りが０のときだけprint処理
-      print(i);
+      Console.WriteLine(i);
     }
   }
 
-}
+
 ```
 
 ```
@@ -180,7 +173,7 @@ void main() {
 
 ```
 
-# **回答**
+# **解答**
 
 ```c#
 
